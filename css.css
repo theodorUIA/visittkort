@@ -6,11 +6,13 @@
 	justify-content: space-evenly;
 }
 .card-div {
-	flex-basis: 300px;
+	flex-basis: 15em;
 	align-self: center;
 	border: 1px solid black;
 	border-radius: 5px;
-	margin: 20px;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+	margin-bottom: 1.5em;
 }
 .image-div {
 	background: white;

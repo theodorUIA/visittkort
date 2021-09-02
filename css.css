@@ -9,21 +9,29 @@
 	flex-basis: 15em;
 	align-self: center;
 	border: 1px solid black;
-	border-radius: 5px;
+	border-radius: 1px;
 	margin-left: 0.3em;
 	margin-right: 0.3em;
 	margin-bottom: 1.5em;
+	transition: 0.3s ease;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.card-div:hover{
+	-webkit-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.02);
+	transition: 0.3s ease;
+	border: 0px;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .image-div {
 	background: white;
-	margin-left: 2em;
-	margin-right: 2em;
-	margin-top:  1.5em;
-	margin-bottom: 1em;
+	margin: 1em;
 	max-width: 300px;
 }
 .information-div {
-	margin-left: 2em;
 	margin-left: 2em;
 	margin-right: 2em;
 	margin-top:  0em;
@@ -36,5 +44,6 @@
 .card-image {
 	max-width: 100%;
 	max-height:  100%;
-	border-radius: 5px;
+	border-radius: 1px;
 }
+

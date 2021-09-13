@@ -52,3 +52,27 @@
 	-ms-transform: scale(1.2);
 	transform: scale(1.2);
 }
+.bg-color-1 {
+	background-color: #6b705c;
+}
+.bg-color-2 {
+	background-color: #a5a58d;
+}
+.bg-color-3 {
+	background-color: #b7b7a4;
+}
+.bg-color-4 {
+	background-color: #ffe8d6;
+}
+.bg-color-5 {
+	background-color: #ddbea9;
+}
+.bg-color-6 {
+	background-color: #cb997e;
+}
+.bg-color-7 {
+	background-color: #e9c46a;
+}
+.bg-color-8 {
+	background-color: #f4a261;
+}
